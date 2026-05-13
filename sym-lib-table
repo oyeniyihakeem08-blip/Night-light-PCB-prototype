@@ -14,4 +14,5 @@
   (lib (name "nRF24L01P")(type "KiCad")(uri "${KIPRJMOD}/Symbol/NRF24L01P-R.kicad_sym")(options "")(descr ""))
   (lib (name "nRF24L01p antenna")(type "KiCad")(uri "${KIPRJMOD}/Symbol/nrf24l01+_reference_module-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/Symbol/crystal  X322516MOB4SI.kicad_sym")(options "")(descr ""))
+  (lib (name "mouse bite")(type "KiCad")(uri "${KIPRJMOD}/Symbol/mouse bite.kicad_sym")(options "")(descr ""))
 )
