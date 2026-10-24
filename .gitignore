@@ -1,40 +1,25 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Night-light-PCB-prototype: what goes into the repo
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
-_autosave-*
-\#auto_saved_files\#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
+# 1. Ignore every loose file and folder at the top level...
+/*
+
+# 2. ...but let every top-level folder through (their contents are included)
+!/*/
+
+# 3. ...except the editor history folder
+/.history/
+
+# 4. Top-level files I do want
+!/.gitignore
+!/README.md
+!/Night light PCB.kicad_pro
+!/Night light PCB.kicad_pcb
+!/Night light PCB.kicad_sch
+!/fp-lib-table
+!/sym-lib-table
+
+# 5. Junk that should never be committed, at any depth
+.pio/
+*.lck
 ~*.lck
-\#auto_saved_files#
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local project settings
-*.kicad_prl
+*-backups/
