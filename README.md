@@ -4,7 +4,7 @@ A smart, motion-sensing LED night light that runs straight from the mains, keeps
 
 I designed and built both custom PCBs end to end: schematic, PCB layout, power design, component selection and firmware for **both** the light and the remote.
 
-> Status: working prototype (April 2026) · Tools: KiCad, Arduino C/C++ · Manufacturing target: JLCPCB / LCSC
+
 
 ![Fabricated main PCB, front view](Images/Frontt%20of%20PCB%20%28Fabricated%29.jpeg)
 
