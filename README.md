@@ -219,7 +219,23 @@ BOM, Gerber and pick-and-place files for JLCPCB / LCSC.
 ├── Symbol/                        # custom symbol libraries
 ├── 3D Model/                      # 3D models used by the footprints
 ├── Night light PCB (Kicad and production files)/
-│   └── ...                        # gerbers, production files and design exports
+│   └── Design filess/
+│       ├── Night light PCB 3D model/
+│       │   ├── Night Light board.step
+│       │   ├── Night Light remote board.step
+│       │   └── Night light PCB.step
+│       ├── production/            # JLCPCB manufacturing outputs
+│       │   ├── backups/
+│       │   ├── bom.csv
+│       │   ├── designators.csv
+│       │   ├── netlist.ipc
+│       │   ├── Night_light_PCB.zip
+│       │   └── positions.csv
+│       ├── Night light PCB BOM .csv
+│       ├── Night light PCB-F_Fab.svg
+│       ├── Night light PCB-NPTH-drl_map.pdf
+│       ├── Night light PCB-PTH-drl_map.pdf
+│       └── Night light Schematics.pdf
 ├── Firmware source file/          # firmware source projects
 ├── firmwares/                     # firmware builds
 ├── Documents/                     # project documents
